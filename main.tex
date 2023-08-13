@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\usepackage[defernumbers=true]{biblatex}
+\addbibresource{xexeo.bib}
+%\addbibresource{geral.bib}
+\addbibresource{ludografia.bib}
+\addbibresource{ongames.bib}
+\addbibresource{brienlp.bib}
+
+\title{Bibs}
+\author{Geraldo Xexéo}
+\date{August 2023}
+
+\begin{document}
+
+\maketitle
+
+
+Listing of all my BiBTeX files.
+
+
+\begin{refsection}[xexeo]
+\nocite{*}
+\printbibliography[title={Xexéo}, resetnumbers=true]
+\end{refsection}
+
+\begin{refsection}[ongames]
+\nocite{*}
+\printbibliography[title={About Games}, resetnumbers=true]
+\end{refsection}
+
+% \begin{refsection}[geral]
+% \nocite{*}
+% \printbibliography[title={Geral}, resetnumbers=true]
+% \end{refsection}
+
+\begin{refsection}[brienlp]
+\nocite{*}
+\printbibliography[title={Information Retrieval and NLP}, resetnumbers=true]
+\end{refsection}
+
+\begin{refsection}[ludografia]
+\nocite{*}
+\printbibliography[title={Ludografia}, resetnumbers=true]
+\end{refsection}
+
+\end{document}
