@@ -1,0 +1,20 @@
+*.aux
+*.bak
+*.bbl
+*.bcf
+*.blg
+*.idx
+*.ilg
+*.ind
+*.loa
+*.lof
+*.log
+*.lol
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+*.tmp
+*.toc
+docs Word/~$xtos CAPAs.docx
